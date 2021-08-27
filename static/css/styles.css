@@ -156,7 +156,9 @@
   transform: scale(1.03);
   
 }
-
+#services{
+  position: relative;
+}
 .services-content{
   height: auto;
   width: 100%;
@@ -253,7 +255,9 @@
   padding-top: 10px;
   border-radius: 40px;
 }
-
+#services2{
+  position: relative;
+}
 .services2-content{
   height: auto;
   width: 100%;
