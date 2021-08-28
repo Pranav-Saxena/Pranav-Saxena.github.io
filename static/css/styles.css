@@ -3,7 +3,7 @@
 .main-jumbotron {
   /* background-image: url('https://discord.mx/QpwAeOeqkg.png'); */
   min-height: 100vh;
-  /* position: relative; */
+  position: relative;
   /* background-attachment: fixed; */
   background-position: center;
   /* background-repeat: no-repeat; */
