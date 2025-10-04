@@ -1,0 +1,116 @@
+:root {
+    --color-bg: #1A1A1A;
+    --color-card-bg: #000000;
+    --color-text-primary: #CCCCCC;
+    --color-text-heading: #FFFFFF;
+    --color-link: hsl(339, 90%, 68%);
+    --color-accent: hsl(339, 90%, 68%);
+    --color-icon: hsl(339, 90%, 68%);
+}
+
+body {
+    background-color: var(--color-bg) !important;
+    color: var(--color-text-primary);
+}
+
+
+/* a {
+    color: var(--color-link) !important;
+} */
+
+h1 {
+    font-size: 1.8rem !important;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1rem !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-text-heading);
+    font-family: Roboto, sans-serif;
+    font-weight: 500 !important;
+}
+
+a,
+h3.article-title a:hover {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color .6s ease
+}
+
+body:not(.dark) {
+    --color-bg: #F7F7F7;
+    --color-card-bg: #FFFFFF;
+    --color-text-primary: #333333;
+    --color-text-heading: #1A1A1A;
+    --color-link: #1772D0;
+    --color-accent: #1772D0;
+    --color-icon: #000000;
+}
+
+body:not(.dark) .experience .m-2 .border,
+body:not(.dark) .experience .col.border-right {
+    /* Using the light mode accent color (blue) */
+    border-color: #ab1de3 !important;
+}
+
+body:not(.dark) .experience .m-2 .border.exp-fill {
+    /* Using the light mode accent color (blue) */
+    background-color: #ab1de3 !important;
+}
+
+body:not(.dark) h4.card-title.exp-title.text-muted {
+    /* Use a dark muted gray, which should be easily readable on a white background */
+    color: #4d5053 !important;
+    transition: color 0.3s ease;
+}
+
+
+/* html.light a {
+    color: var(--color-link) !important;
+} */
+
+li a[itemprop="sameAs"] svg,
+li a[itemprop="sameAs"] i {
+    fill: var(--color-icon);
+    color: var(--color-icon);
+}
+
+.col-12.col-lg-8[itemprop="description"] p,
+#news .col-12 ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.7;
+}
+
+#news .col-12 ul li p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.7;
+}
+
+.col-12.col-lg-8[itemprop="description"] p a,
+#news .col-12 ul li a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.col-12.col-lg-8[itemprop="description"] p a:hover,
+#news .col-12 ul li a:hover {
+    text-decoration: underline;
+}
