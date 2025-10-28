@@ -114,3 +114,33 @@ li a[itemprop="sameAs"] i {
 #news .col-12 ul li a:hover {
     text-decoration: underline;
 }
+
+.pub-img {
+    width: 210px;
+    /* ✅ same width for all images */
+    height: 140px;
+    /* ✅ same height for all images */
+    object-fit: fill;
+    /* ✅ ensures image keeps aspect ratio without stretching */
+    border-radius: 0px;
+    /* optional: adds soft corners */
+}
+
+.project-img {
+    width: 210px;
+    /* ✅ same width for all images */
+    height: 140px;
+    /* ✅ same height for all images */
+    object-fit: fill;
+    /* ✅ ensures image keeps aspect ratio without stretching */
+    border-radius: 0px;
+    /* optional: adds soft corners */
+}
+
+.pub-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
